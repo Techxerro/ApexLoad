@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+@font-face {
+  font-family: "Neue-Black";
+  src: url("/neue-plak/Neue%20Plak%20Black.ttf"); /* Use %20 instead of spaces */
+}
+
+@font-face {
+  font-family: "Neue-Bold";
+  src: url("/neue-plak/Neue%20Plak%20Bold.ttf");
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("/neue-plak/Neue%20Plak%20Regular.ttf");
+}
+
+@font-face {
+  font-family: "Neue-ExtraBlack";
+  src: url("/neue-plak/Neue%20Plak%20ExtraBlack.ttf");
+}
+
+@font-face {
+  font-family: "Neue-Semibold";
+  src: url("/neue-plak/Neue%20Plak%20SemiBold.ttf");
+}
